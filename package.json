@@ -4,24 +4,23 @@
   "description": "A03-Dice-Game",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node cli.js"
+    "test": "node ./bin/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-Katie-Cornette.git"
   },
   "author": "katie-cornette",
-  "license": "MIT",   
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-Katie-Cornette/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-Katie-Cornette#readme",
-  "type": "module",  
+  "type": "module",
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
   "dependencies": {
     "minimist": "^1.2.7"
-  } 
-
+  }
 }

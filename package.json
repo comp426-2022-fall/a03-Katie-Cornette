@@ -4,7 +4,7 @@
   "description": "A03-Dice-Game",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node /lib/roll.js  --sides=10 --dice=2 --rolls=3"
+    "test": "npm ./bin/cli.js"
   },
   "repository": {
     "type": "git",
